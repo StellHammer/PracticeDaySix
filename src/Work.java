@@ -56,6 +56,7 @@ public class Work {
 		String DBname = "FirstTest";
 		if (args[0].equals("setup")) {
 			sq.createTestBase(DBname);
+			boolean t = false;
 		}
 		if (args[0].equals("run")) {
 
@@ -111,9 +112,6 @@ public class Work {
 		}
 		if (args[0].equals("gui")) {
 			Window l = new Window();
-			int i=0;
-			i=1;
-			
 		}
 	}
 }
